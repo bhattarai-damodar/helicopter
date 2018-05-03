@@ -32,19 +32,28 @@ function moveLeft(){
 	var circle = document.getElementById('circle');
 	currentLeft = circle.offsetLeft;
 	circle.style.left = currentLeft - 3 + 'px';
+	circle.style.transition='transform 2s';
+	circle.style.transform='scale(0.2)';
 }
 function moveRight(){
 	var circle = document.getElementById('circle');
 	currentLeft = circle.offsetLeft;
 	circle.style.left = currentLeft + 3 + 'px';
+	circle.style.transition='transform 2s';
+	circle.style.transform='scale(1.2)';
 }
 function moveTop(){
 	var circle = document.getElementById('circle');
 	currentTop = circle.offsetTop;
 	circle.style.top = currentTop - 3 + 'px';
+	circle.style.transition='transform 2s';
+	circle.style.transform='scale(0.2)';
+
 }
 function moveDown(){
 	var circle = document.getElementById('circle');
 	currentTop = circle.offsetTop;
 	circle.style.top = currentTop + 3 + 'px';
+	circle.style.transition='transform 2s';
+	circle.style.transform='scale(1.2)';
 }
