@@ -1,0 +1,28 @@
+body {margin: 0; padding: 0; background-image: url(background.jpg); font-family: calibri, helvetica, sans-serif;}
+
+#circle {
+	background: url("heli.png");
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	font-size: 2em; 
+	cursor: pointer; 
+	text-align: center; 
+	
+
+
+	color: #fff;
+/*	transition: 3s;*/
+
+}
+
+
+.transparent {opacity: 0.5;}
+
+#paragraph {
+	background-color: green;
+	border-radius: 50px;
+	font-family: Verdana, Helvetica, Sans-serif;
+	height: 50px;
+
+}
